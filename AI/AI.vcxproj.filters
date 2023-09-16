@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{fabc2576-560a-48cf-ba7b-691539bf4e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{83b14f40-61cb-4873-8127-28d905e864b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Pch">
+      <UniqueIdentifier>{f73dd632-1959-4cd7-a5d9-09b5ed433faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Pathfinding">
+      <UniqueIdentifier>{8eed1767-2570-4613-b00b-08979953dad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Pathfinding">
+      <UniqueIdentifier>{7158babd-e50c-4e1d-8f27-77caffd8f8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\FSM">
+      <UniqueIdentifier>{4221e0b5-d6aa-4f2b-b696-f3db61cc558f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Steering">
+      <UniqueIdentifier>{29579339-f935-4e33-9499-e50d896e89ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\World">
+      <UniqueIdentifier>{9a0e74ab-bb69-4dd2-9444-1699dae7f2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Steering">
+      <UniqueIdentifier>{1bca2867-766c-410e-a256-ee817b5cd17b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\AI.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Common.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Precompiled.h">
+      <Filter>Src\Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\GridBasedGraph.h">
+      <Filter>Inc\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\State.h">
+      <Filter>Inc\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\StateMachine.h">
+      <Filter>Inc\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Pathing.h">
+      <Filter>Inc\Pathfinding</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\SteeringBehaviour.h">
+      <Filter>Inc\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Agent.h">
+      <Filter>Inc\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\SteeringModule.h">
+      <Filter>Inc\Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\WanderBehaviour.h">
+      <Filter>Inc\Steering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\GridBasedGraph.cpp">
+      <Filter>Src\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Precompiled.cpp">
+      <Filter>Src\Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Pathing.cpp">
+      <Filter>Src\Pathfinding</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SteeringModule.cpp">
+      <Filter>Src\Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\WanderBehaviour.cpp">
+      <Filter>Src\Steering</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
